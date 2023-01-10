@@ -1,0 +1,4 @@
+.dashContainer{
+    display: flex;
+    flex-direction: row;
+}

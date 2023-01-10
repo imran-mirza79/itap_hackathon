@@ -1,0 +1,19 @@
+.imageContainer{
+    margin-right: 5em !important;
+    margin-top: 5em !important;
+    padding: 5em !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+
+.image{
+
+    margin: 2em !important;
+    /* padding: 5em !important; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
