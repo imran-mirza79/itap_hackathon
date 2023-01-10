@@ -19,7 +19,8 @@ const Landingpage = (props) => {
      <nav className="navbar navbar-light bg-light">
      <div class="container">
       <h4 className='d-flex'>Yearly Returns</h4>
-      <button type="button" class="btn btn-outline-dark">High</button>
+      <button type="button" className="btn btn-outline-dark pl-2">High</button>
+      <button type="button" className="btn btn-outline-dark">Low</button>
     </div>
      </nav>
      <div class="card-body">

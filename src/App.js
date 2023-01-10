@@ -1,25 +1,15 @@
-import React from'react';
-import {Routes ,Route} from 'react-router-dom';
-//import { Navigate } from 'react-router-dom';
 import './App.css';
-import   {data }from './components/data'
-import { Navigate } from 'react-router-dom';
+import Dashboard from './components/dashboard/Dashboard';
+// import Stock from './components/Stock/Stock';
+
 
 import Landingpage from './components/Landingpage/Landingpage'
 import Stock from './components/Stock/Stock'
 function App() {
   return (
-    <div className="App">
-      <Routes>
-          <Route path='/stock' element={<Stock/>}/>
-          <Route path='/landingpage' element={<Landingpage data={data}/>}/>
-          <Route path='/' element={<Navigate to='landingpage'/>}/>
-          
-          
-      </Routes>
-      
- 
-    </div>
+		<div>
+			<Dashboard/>
+		</div>
   );
 }
 
